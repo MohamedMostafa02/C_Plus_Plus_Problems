@@ -1,0 +1,64 @@
+# Build files
+*.obj
+*.o
+*.lo
+*.slo
+*.dll
+*.exe
+*.out
+*.app
+*.i*
+*.pdb
+*.idb
+*.class
+
+# Build directories
+/bin/
+/build/
+/Build/
+/dist/
+/Debug/
+/Release/
+/x64/
+/x86/
+/*.lib
+/*.a
+/*.so
+/*.dylib
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Code::Blocks
+*.depend
+*.layout
+
+# Qt
+*.pro.user
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# VS Code
+.vscode/
+
+# Backup & temporary files
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
